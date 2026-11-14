@@ -26,7 +26,7 @@ __turbopack_context__.s([
     "findSourceMapURL",
     ()=>findSourceMapURL
 ]);
-const basePath = ("TURBOPACK compile-time value", "") || '';
+const basePath = ("TURBOPACK compile-time value", "/ai-help-with-study") || '';
 const pathname = `${basePath}/__nextjs_source-map`;
 const findSourceMapURL = ("TURBOPACK compile-time truthy", 1) ? function findSourceMapURL(filename) {
     if (filename === '') {
@@ -12011,7 +12011,7 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$2_462e5fb2f617f24ead8cc2c7afd5b03a$2f$node_modules$2f$next$2f$dist$2f$esm$2f$shared$2f$lib$2f$router$2f$utils$2f$path$2d$has$2d$prefix$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@16.4.3_@babel+core@7.2_462e5fb2f617f24ead8cc2c7afd5b03a/node_modules/next/dist/esm/shared/lib/router/utils/path-has-prefix.js [app-ssr] (ecmascript)");
 ;
-const basePath = ("TURBOPACK compile-time value", "") || '';
+const basePath = ("TURBOPACK compile-time value", "/ai-help-with-study") || '';
 function hasBasePath(path) {
     return (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$2_462e5fb2f617f24ead8cc2c7afd5b03a$2f$node_modules$2f$next$2f$dist$2f$esm$2f$shared$2f$lib$2f$router$2f$utils$2f$path$2d$has$2d$prefix$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["pathHasPrefix"])(path, basePath);
 }
@@ -12101,7 +12101,7 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$2_462e5fb2f617f24ead8cc2c7afd5b03a$2f$node_modules$2f$next$2f$dist$2f$esm$2f$client$2f$has$2d$base$2d$path$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@16.4.3_@babel+core@7.2_462e5fb2f617f24ead8cc2c7afd5b03a/node_modules/next/dist/esm/client/has-base-path.js [app-ssr] (ecmascript)");
 ;
-const basePath = ("TURBOPACK compile-time value", "") || '';
+const basePath = ("TURBOPACK compile-time value", "/ai-help-with-study") || '';
 function removeBasePath(path) {
     if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
     ;

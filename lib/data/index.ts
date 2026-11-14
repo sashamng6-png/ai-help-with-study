@@ -3,6 +3,7 @@ import {
   Calculator,
   Cpu,
   FlaskConical,
+  Gavel,
   Globe,
   Landmark,
   Languages,
@@ -20,6 +21,7 @@ import type { Question, Subject, SubjectData, Topic } from '@/lib/types'
 import { astronomy, chemistry, math, physics } from './exact-sciences'
 import { biology, geography, informatics } from './natural-sciences'
 import { civics, ukrHistory, worldHistory } from './social-sciences'
+import { law } from './law'
 import { english, foreignLiterature, ukrLanguage, ukrLiterature } from './languages'
 import { music } from './music'
 import { exactExtras, exactNewTopics } from './extra-exact'
@@ -64,6 +66,7 @@ export const SUBJECTS: Subject[] = [
   build(informatics, Cpu),
   build(worldHistory, ScrollText),
   build(civics, Scale),
+  build(law, Gavel),
   build(foreignLiterature, Library),
   build(astronomy, Telescope),
   build(music, Music),
