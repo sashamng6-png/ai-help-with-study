@@ -1,5 +1,9 @@
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  distDir: 'dist',
+  basePath: '/ai-help-with-study',
   typescript: {
     ignoreBuildErrors: true,
   },
