@@ -14,11 +14,17 @@ export const metadata: Metadata = {
   generator: 'v0.app',
   icons: {
     icon: [
-      { url: '/icon-light-32x32.png', media: '(prefers-color-scheme: light)' },
-      { url: '/icon-dark-32x32.png', media: '(prefers-color-scheme: dark)' },
-      { url: '/icon.svg', type: 'image/svg+xml' },
+      {
+        url: '/ai-help-with-study/icon-light-32x32.png',
+        media: '(prefers-color-scheme: light)',
+      },
+      {
+        url: '/ai-help-with-study/icon-dark-32x32.png',
+        media: '(prefers-color-scheme: dark)',
+      },
+      { url: '/ai-help-with-study/icon.svg', type: 'image/svg+xml' },
     ],
-    apple: '/apple-icon.png',
+    apple: '/ai-help-with-study/apple-icon.png',
   },
 }
 
