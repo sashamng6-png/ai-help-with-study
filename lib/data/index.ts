@@ -1,5 +1,7 @@
 import {
   Atom,
+  BookA,
+  Brain,
   Calculator,
   Cpu,
   FlaskConical,
@@ -14,6 +16,8 @@ import {
   Scale,
   ScrollText,
   Telescope,
+  Trees,
+  TrendingUp,
   BookOpen,
 } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
@@ -22,6 +26,10 @@ import { astronomy, chemistry, math, physics } from './exact-sciences'
 import { biology, geography, informatics } from './natural-sciences'
 import { civics, ukrHistory, worldHistory } from './social-sciences'
 import { law } from './law'
+import { economics } from './economics'
+import { ecology } from './ecology'
+import { psychology } from './psychology'
+import { german } from './german'
 import { english, foreignLiterature, ukrLanguage, ukrLiterature } from './languages'
 import { music } from './music'
 import { exactExtras, exactNewTopics } from './extra-exact'
@@ -59,14 +67,18 @@ export const SUBJECTS: Subject[] = [
   build(ukrLanguage, PenLine),
   build(ukrLiterature, BookOpen),
   build(english, Languages),
+  build(german, BookA),
   build(physics, Atom),
   build(chemistry, FlaskConical),
   build(biology, Leaf),
+  build(ecology, Trees),
   build(geography, Globe),
   build(informatics, Cpu),
   build(worldHistory, ScrollText),
   build(civics, Scale),
   build(law, Gavel),
+  build(psychology, Brain),
+  build(economics, TrendingUp),
   build(foreignLiterature, Library),
   build(astronomy, Telescope),
   build(music, Music),
